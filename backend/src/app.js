@@ -22,7 +22,8 @@ const allowedOrigins = [
   'http://localhost:52101',
   'https://backen4-1.onrender.com',
   'https://prueba2-3bij.onrender.com',
-  'https://prueba2-fmmr.onrender.com'  // Added new frontend domain
+  'https://prueba2-fmmr.onrender.com',
+  'https://prueba3-x3uc.onrender.com'  // Added new frontend domain
 ];
 app.use(cors({
   origin: function (origin, callback) {
